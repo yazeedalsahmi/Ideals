@@ -1,0 +1,12 @@
+let UesrName = prompt('Whats your name ?' )
+console.log('name '+ UesrName)
+let userOrder = prompt('Choose wat you want to print on (Hoodie or T-shirt)?')
+console.log('Order '+ userOrder)
+let colorOrder = prompt('Choose color T-shirt or hoodie ?')
+console.log('color '+ colorOrder)
+let userSize = prompt('Choose your size (S,M,L,XL,XXL)?')
+console.log('size '+ userSize)
+
+alert('Hello '  + UesrName +',your order is '+ userOrder+' , color is '+colorOrder+' and your size is '+userSize)
+alert('Your order price is 10 JD , Thanks')
+alert('There are a lot of desgin in our website , please choose the desgin you want to print it on your order' )
